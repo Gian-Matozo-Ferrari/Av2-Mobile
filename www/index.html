@@ -14,12 +14,15 @@
 </head>
 
 <body>
-
+    <div class="container">
+        <h1>Pesquise seu CEP</h1>
+    </div>
     <div class="mb-3">
         <form method="get" action="." class="form-label">
             <div class="container"><label class="form-label">Cep:
                     <input placeholder="Insira um CEP" class="form-control" name="cep" type="text" id="cep" value=""
                         size="10" maxlength="9" onblur="pesquisacep(this.value);"></label></div>
+            <div class="container"><button id="pesquisar" type="button" class="btn btn-primary" onclick="pesquisacep()">Pesquisar</button></div>
             <div class="container"><label class="form-label">Rua:
                     <input class="form-control" name="rua" type="text" id="rua" size="60" /></label></div>
             <div class="container"><label class="form-label">Bairro:
@@ -39,7 +42,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>O CEP que você digitou não foi encontrado em nosso banco de dados, tente digitar novamente ou acesse 
+                    <p>O CEP que você digitou não foi encontrado em nosso banco de dados, tente digitar novamente ou
+                        acesse
                         <a target="_blank" href="https://www.google.com.br/maps/">Google Maps</a>.</p>
                 </div>
                 <div class="modal-footer">
@@ -57,7 +61,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>O CEP inserido está em um formato inválido. Tente digitar novamente, apenas <b>8</b> números separados por hífen (00000-000) ou (00000000). Se tiver dúvidas acesse <a target="_blank" href="https://www.google.com.br/maps/">Google Maps</a>.</p>
+                    <p>O CEP inserido está em um formato inválido. Tente digitar novamente, apenas <b>8</b> números
+                        separados por hífen (00000-000) ou (00000000). Se tiver dúvidas acesse <a target="_blank"
+                            href="https://www.google.com.br/maps/">Google Maps</a>.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
@@ -65,6 +71,14 @@
             </div>
         </div>
     </div>
+        <footer id="rodape" class="container">
+            <p>Copyright &copy; 2021 - by Gian Matozo Ferrari</p>
+            <p>
+                <a href="https://www.instagram.com/gian_matozo_ferrari/" target="_blank">Instagram</a> |
+                <a href="https://www.linkedin.com/in/gian-matozo-ferrari-948606205" target="_blank">Linkedin</a> |
+                <a href="https://github.com/Gian-Matozo-Ferrari" target="_blank">GitHub</a>
+            </p>
+        </footer>
 
     <script src="cordova.js"></script>
     <script src="js/index.js"></script>
