@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43b0af7f-d907-4a4a-93e1-8eab711d383f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/www/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="43b0af7f-d907-4a4a-93e1-8eab711d383f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,5 +39,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="100" y="116" width="1146" height="498" key="AVDManager/0.0.1366.738/1366.-410.1920.1050@0.0.1366.738" timestamp="1617019180811" />
+    <state x="453" y="120" key="FileChooserDialogImpl" timestamp="1617019474503">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="453" y="120" key="FileChooserDialogImpl/0.0.1366.738/1366.-410.1920.1050@0.0.1366.738" timestamp="1617019474503" />
   </component>
 </project>
