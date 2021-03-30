@@ -21,7 +21,6 @@
             myModal.show();
             //CEP não Encontrado.
             limpa_formulário_cep();
-            alert("CEP não encontrado.");
         }
     }
 
@@ -65,7 +64,6 @@
                 })
                 myModal.show();
                 limpa_formulário_cep();
-                alert("Formato de CEP inválido.");
 
             }
         } //end if.
